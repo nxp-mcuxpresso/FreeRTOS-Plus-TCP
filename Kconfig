@@ -1,0 +1,13 @@
+#
+# Copyright 2024 NXP
+#
+# SPDX-License-Identifier: MIT
+#
+
+menuconfig MCUX_COMPONENT_middleware.freertos.freertos-plus-tcp
+    bool "freertos-plus-tcp"
+    default n
+    help
+        Thread safe FreeRTOS TCP/IP stack working on top of the FreeRTOS-Kernel
+        to implement the TCP/IP protocol
+    select MCUX_COMPONENT_middleware.freertos-kernel
