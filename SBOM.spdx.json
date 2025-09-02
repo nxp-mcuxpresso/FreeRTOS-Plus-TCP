@@ -2,20 +2,20 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2025-06-17T09:36:39Z",
+    "created": "2025-09-01T13:04:59Z",
     "creators": [
       "Organization: NXP"
     ],
     "licenseListVersion": "3.20"
   },
-  "name": "freertos-plus-tcp-v25.06.00",
+  "name": "freertos-plus-tcp-v25.09.00",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://nxp.com/spdx/3f7ab5fc-dc33-4a36-a4c2-9f560bd2942f",
+  "documentNamespace": "https://nxp.com/spdx/5306a408-9f11-4fd6-b0b2-00e1d4d78e93",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-3f7ab5fc-dc33-4a36-a4c2-9f560bd2942f",
+      "SPDXID": "SPDXRef-package-5306a408-9f11-4fd6-b0b2-00e1d4d78e93",
       "name": "freertos-plus-tcp",
-      "versionInfo": "v25.06.00",
+      "versionInfo": "v25.09.00",
       "licenseConcluded": "(MIT)",
       "licenseDeclared": "(MIT)",
       "downloadLocation": "https://github.com/nxp-mcuxpresso/freertos-plus-tcp",
@@ -58,11 +58,11 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-3f7ab5fc-dc33-4a36-a4c2-9f560bd2942f"
+      "relatedSpdxElement": "SPDXRef-package-5306a408-9f11-4fd6-b0b2-00e1d4d78e93"
     },
     {
-      "spdxElementId": "SPDXRef-package-3f7ab5fc-dc33-4a36-a4c2-9f560bd2942f",
-      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-package-5306a408-9f11-4fd6-b0b2-00e1d4d78e93",
+      "relationshipType": "DYNAMIC_LINK",
       "relatedSpdxElement": "SPDXRef-package-1a03577d-28b5-4681-bc3d-6fa9e53c32a5"
     }
   ]
