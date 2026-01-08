@@ -2,20 +2,20 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2025-06-17T09:36:39Z",
+    "created": "2026-01-08T03:55:00Z",
     "creators": [
       "Organization: NXP"
     ],
-    "licenseListVersion": "3.20"
+    "licenseListVersion": "3.26"
   },
-  "name": "freertos-plus-tcp-v25.06.00",
+  "name": "freertos-plus-tcp-v26.03.00-pvw1",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://nxp.com/spdx/3f7ab5fc-dc33-4a36-a4c2-9f560bd2942f",
+  "documentNamespace": "https://nxp.com/spdx/049b129d-7f74-4d37-bc96-136589c8802a",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-3f7ab5fc-dc33-4a36-a4c2-9f560bd2942f",
+      "SPDXID": "SPDXRef-package-049b129d-7f74-4d37-bc96-136589c8802a",
       "name": "freertos-plus-tcp",
-      "versionInfo": "v25.06.00",
+      "versionInfo": "v26.03.00-pvw1",
       "licenseConcluded": "(MIT)",
       "licenseDeclared": "(MIT)",
       "downloadLocation": "https://github.com/nxp-mcuxpresso/freertos-plus-tcp",
@@ -25,30 +25,30 @@
       "filesAnalyzed": false
     },
     {
-      "SPDXID": "SPDXRef-package-1a03577d-28b5-4681-bc3d-6fa9e53c32a5",
+      "SPDXID": "SPDXRef-package-4a2e8d73-a690-4e56-8e17-62ebe9dd3254",
       "name": "FreeRTOS Real Time Kernel",
-      "versionInfo": "V4.3.3",
+      "versionInfo": "V4.3.4",
       "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "MIT",
       "homepage": "https://sourceforge.net/projects/freertos",
-      "downloadLocation": "https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/releases/tag/V4.3.3",
+      "downloadLocation": "https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/releases/tag/V4.3.4",
       "originator": "Organization: freertos",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
+          "referenceCategory": "OTHER",
+          "referenceLocator": "4fac8126-26d9-4dad-ac5b-f795d7bb049c",
+          "referenceType": "BlackDuck-ComponentOrigin"
+        },
+        {
           "referenceCategory": "SECURITY",
-          "referenceLocator": "cpe:2.3:a:freertos:freertos_plus_tcp:4.3.3:*:*:*:*:*:*:*",
+          "referenceLocator": "cpe:2.3:a:freertos:freertos_plus_tcp:4.3.4:*:*:*:*:*:*:*",
           "referenceType": "cpe23Type"
         },
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:github/FreeRTOS/FreeRTOS-Plus-TCP@V4.3.3",
+          "referenceLocator": "pkg:github/FreeRTOS/FreeRTOS-Plus-TCP@V4.3.4",
           "referenceType": "purl"
-        },
-        {
-          "referenceCategory": "OTHER",
-          "referenceLocator": "a88e2314-e439-4fc2-9ca2-4f9422ca2ce3",
-          "referenceType": "BlackDuck-ComponentOrigin"
         }
       ],
       "filesAnalyzed": false
@@ -58,12 +58,12 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-3f7ab5fc-dc33-4a36-a4c2-9f560bd2942f"
+      "relatedSpdxElement": "SPDXRef-package-049b129d-7f74-4d37-bc96-136589c8802a"
     },
     {
-      "spdxElementId": "SPDXRef-package-3f7ab5fc-dc33-4a36-a4c2-9f560bd2942f",
+      "spdxElementId": "SPDXRef-package-049b129d-7f74-4d37-bc96-136589c8802a",
       "relationshipType": "CONTAINS",
-      "relatedSpdxElement": "SPDXRef-package-1a03577d-28b5-4681-bc3d-6fa9e53c32a5"
+      "relatedSpdxElement": "SPDXRef-package-4a2e8d73-a690-4e56-8e17-62ebe9dd3254"
     }
   ]
 }
