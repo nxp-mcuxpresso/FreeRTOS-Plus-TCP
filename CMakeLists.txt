@@ -1,14 +1,15 @@
 #
-# Copyright 2024 NXP
+# Copyright 2024-2026 NXP
 #
 # SPDX-License-Identifier: MIT
 #
 
 if (CONFIG_MCUX_COMPONENT_middleware.freertos.freertos-plus-tcp)
     mcux_add_source(
-        SOURCES source/*.* source/include/*.*
+        SOURCES ../freertos-plus-tcp-upstream/source/*.*
+                ../freertos-plus-tcp-upstream/source/include/*.*
     )
     mcux_add_include(
-        INCLUDES source/include
+        INCLUDES ../freertos-plus-tcp-upstream/source/include
     )
 endif()
