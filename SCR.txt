@@ -1,13 +1,10 @@
 NXP Software Content Register
 
-Package: freertos-plus-tcp
+Package: freertos-plus-tcp NXP integration layer
 Version: 4.3.3
-Outgoing License: MIT
-License File: LICENSE.md
+Outgoing License: BSD-3-Clause
+License File: LICENSE
 Type of Content: source code, header files
 Description and comments: FreeRTOS Plus TCP
 Release Location: https://github.com/nxp-mcuxpresso/freertos-plus-tcp
-Origin: 
-      NXP (MIT)
-      Amazon (MIT)  - https://github.com/FreeRTOS/freertos-plus-tcp
-
+Origin: NXP (BSD-3-Clause)
